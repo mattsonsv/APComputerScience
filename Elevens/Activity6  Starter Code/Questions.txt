@@ -1,0 +1,5 @@
+1. Two
+2. There cannot be an odd remaining set of cards unless they are a set of face cards due to all other plays being done with pairs
+3. The game requires no strategy. Any play will draw the next two, or three, cards no matter the play chosen.
+
+

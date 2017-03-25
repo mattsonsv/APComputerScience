@@ -1,0 +1,16 @@
+1. A deck of cards. BOARD_SIZE, RANKS, SUITS, POINT_VALUES, cards, deck, I_AM_DEBUGGING
+2. Deal cards equal to BOARD_SIZE; allow player to select cards if possible, else end game; check if
+selected cards sum to 11 or are a Jack, Queen, and King, else disallow the play; check if all cards matched,
+if so end game, else continue; refill board and repeat.
+3. No, it is missing the logic for each turn
+4. a. In the constructor and the method newGame()
+   b. isLegal() and anotherPlayIsPossible
+   c. 0, 1, 3, 6, 7
+   d.
+public static printCards(ElevensBoard board) {
+	ArrayList<Integer> cIndexes = board.cardIndexes();
+	for (int index: cIndexes) {
+		System.out.println(cards[index]);
+	}
+}
+    e. anotherPlayIsPossible because it needs to remove the currently selected cards from consideration
