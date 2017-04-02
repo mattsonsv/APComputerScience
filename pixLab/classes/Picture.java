@@ -475,7 +475,8 @@ public class Picture extends SimplePicture
   
   //Added
   public void edgeDetection2(int edgeDist) {
-      Pixel currentPixel = null, testPixel = null;
+      Pixel currentPixel = null;
+      Pixel testPixel = null;
       
       int testWidth = 3;
       int testHeight = 3;
